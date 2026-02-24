@@ -362,6 +362,10 @@ header img {
     display: none;
   }
 
+  .nav-icon {
+    display: none;
+  }
+
   .pickup-title,
   .drop-title {
     grid-column: span 1;
