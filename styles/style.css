@@ -342,9 +342,9 @@ header img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .booking-section{
-   display: flex;
-   flex-wrap: wrap
+  .booking-section {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
