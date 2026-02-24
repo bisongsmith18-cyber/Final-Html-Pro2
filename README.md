@@ -1,11 +1,11 @@
-#  MORENT – Car Rental Website
+# MORENT – Car Rental Website
 
 MORENT is a modern and responsive **car rental website UI** built using **HTML and CSS**.  
 The project focuses on clean layout, responsive design, and a professional booking interface inspired by real-world car rental platforms.
 
 ---
 
-##  Features
+## Features
 
 -  Clean & modern UI design
 -  Fully responsive (desktop, tablet, mobile)
@@ -18,7 +18,7 @@ The project focuses on clean layout, responsive design, and a professional booki
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
 - **HTML5** – Page structure & semantics  
 - **CSS3** – Layout, Flexbox, Grid & responsiveness  
@@ -26,7 +26,7 @@ The project focuses on clean layout, responsive design, and a professional booki
 
 ---
 
-##  Project Structure
+## Project Structure
 morent-car-rental/
 │
 ├── index.html
@@ -47,7 +47,7 @@ morent-car-rental/
 
 ---
 
-##  How to Run the Project
+## How to Run the Project
 
 1. Download or clone the repository
    ```bash

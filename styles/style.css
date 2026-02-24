@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
 }
 
 body {
@@ -127,7 +127,7 @@ header img {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 30px rgba(0 0 0 50%);
 }
 
 /* Pickup & Drop-off blocks */
