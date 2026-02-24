@@ -341,6 +341,11 @@ header img {
   .suv-two {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .booking-section{
+   display: flex;
+   flex-wrap: wrap
+  }
 }
 
 @media (max-width: 768px) {
