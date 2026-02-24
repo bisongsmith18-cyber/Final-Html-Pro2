@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rent Website Design</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="assests/images/Logo.png" alt="Logo">
+    </div>
+
+    <nav id="navbar">
+      <div class="nav-center">
+        <form action="search">
+          <input type="search" placeholder="search something here" aria-label="search">
+        </form>
+      </div>
+
+
+      <div id="nav-right" class="nav">
+        <img src="assests/images/Like.png" alt="like" class="nav-icon">
+        <img src="assests/images/Notification.png" alt="notification" class="nav-icon">
+        <img src="assests/images/Settings.png" alt="setting" class="nav-icon">
+        <img src="assests/images/Profil.png" alt="profil" class="profil">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="box">
+        <div>
+          <h1>The Best Platform for Car Rental</h1>
+          <p>Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+          <button type="button" class="rental">Rental Car</button>
+        </div>
+        <div>
+          <img src="assests/images/car.png" alt="car-img">
+        </div>
+      </div>
+
+      <div id="second-box" class="box">
+        <div>
+          <h1>Easy way to reent a car at a low price</h1>
+          <p>Providing cheap car rental service and safe and comfortable facilities.</p>
+          <button type="button" class="rental">Rental Car</button>
+        </div>
+        <div>
+          <img src="assests/images/car (1).png" alt="car-img">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= BOOKING ================= -->
+    <section class="booking-section">
+
+      <!-- Pick-up -->
+      <div class="pickup">
+        <h3 class="pickup-title">Pick-Up</h3>
+
+        <div class="field">
+          <label for="pickup-location">Location</label>
+          <select id="pickup-location">
+            <option>Select your city</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="pickup-date">Date</label>
+          <input type="date" id="pickup-date" />
+        </div>
+
+        <div class="field">
+          <label for="pickup-time">Time</label>
+          <input type="time" id="pickup-time" />
+        </div>
+      </div>
+
+      <!-- Switch -->
+      <div class="switch-box">
+        <img src="assests/images/Switch.png" alt="Switch" />
+      </div>
+
+      <!-- Drop-off -->
+      <div class="pick-off">
+        <h3 class="drop-title">Drop-Off</h3>
+
+        <div class="field">
+          <label for="drop-location">Location</label>
+          <select id="drop-location">
+            <option>Select your city</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="drop-date">Date</label>
+          <input type="date" id="drop-date" />
+        </div>
+
+        <div class="field">
+          <label for="drop-time">Time</label>
+          <input type="time" id="drop-time" />
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Popular car -->
+    <section class="spot">
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">koenigsegg</h3>
+          <p class="car-type">Spot</p>
+          <div>
+            <img src="assests/images/heart.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/car.png" alt="koenigsegg">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline.png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity.png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>$99.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">Nissan GT-R</h3>
+          <p class="car-type">Spot</p>
+          <div>
+            <img src="assests/images/heart2.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/car (1).png" alt="Nissan GT-R">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline (1).png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity.png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>$99.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">Rolls-Royce</h3>
+          <p class="car-type">Spot</p>
+          <div>
+            <img src="assests/images/heart.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car.png" alt="Rolls-Royce">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline (2).png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity (2).png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>$99.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">Nissan GT-S</h3>
+          <p class="car-type">Spot</p>
+          <div>
+            <img src="assests/images/heart2.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car (1).png" alt="Nissan GT-R">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline (1).png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity.png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>$99.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section recommendation -->
+    <section class="suv">
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">All New Rush</h3>
+          <p class="car-type">SUV</p>
+          <div>
+            <img src="assests/images/heart.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car (2).png" alt="img-car">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline (2).png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity (3).png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>$72.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">CR-V</h3>
+          <p class="car-type">SUV</p>
+          <div>
+            <img src="assests/images/heart2.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car (3).png" alt="CR-V">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline (1).png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity (3).png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>$80.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">All New Terios</h3>
+          <p class="car-type">SUV</p>
+          <div>
+            <img src="assests/images/heart.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car (4).png" alt="All New Terios">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline.png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity (3).png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>74.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">Cr_V</h3>
+          <p class="car-type">SUV</p>
+          <div>
+            <img src="assests/images/heart2.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car (5).png" alt="All New Terios">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline (1).png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity (3).png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>80.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="suv-two">
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">MGZX Exclusice</h3>
+          <p class="car-type">SUV</p>
+          <div>
+            <img src="assests/images/heart.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car (6).png" alt="MGZX Exclusice">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline (2).png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity (2).png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>$76.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">New MGZS</h3>
+          <p class="car-type">SUV</p>
+          <div>
+            <img src="assests/images/heart2.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car (7).png" alt="New MGZS">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline (1).png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity (3).png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>$80.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">MGZX Excite</h3>
+          <p class="car-type">SUV</p>
+          <div>
+            <img src="assests/images/heart.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car (6).png" alt="MGZX Excite">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline.png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity (2).png" alt="capacity">
+        </div>
+
+        <!-- car-footer -->
+        <div class="car-footer">
+          <p class="price"><strong>74.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+
+      <div class="cards">
+        <!-- cards header -->
+        <div class="car-header">
+          <h3 class="car-name">New MGZS</h3>
+          <p class="car-type">SUV</p>
+          <div>
+            <img src="assests/images/heart2.png" alt="like">
+          </div>
+        </div>
+
+        <!-- cards img    -->
+        <div class="car-img">
+          <img src="assests/images/Car (7).png" alt="New MGZS">
+        </div>
+
+        <!-- car features -->
+        <div class="car-feature">
+          <img src="assests/images/Gasoline (1).png" alt="fuel">
+          <img src="assests/images/Car (9).png" alt="transmission">
+          <img src="assests/images/Capacity (3).png" alt="capacity">
+        </div>
+        <div class="car-footer">
+          <p class="price"><strong>80.00/day</strong></p>
+          <button class="rent-btn">Rent Now</button>
+        </div>
+      </div>
+    </section>
+    <button class="show-more-btn">show more cars</button>
+
+    <footer class="footer">
+      <div class="footer-container">
+
+        <!-- Left: Brand -->
+        <div class="footer-brand">
+          <h2>MORENT</h2>
+          <p>
+            Our vision is to provide convenience<br>
+            and help increase your sales business.
+          </p>
+        </div>
+
+        <!-- Right: Links -->
+        <div class="footer-links">
+
+          <div class="footer-column">
+            <h4>About</h4>
+            <ul>
+              <li>How it works</li>
+              <li>Featured</li>
+              <li>Partnership</li>
+              <li>Business Relation</li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Community</h4>
+            <ul>
+              <li>Events</li>
+              <li>Blog</li>
+              <li>Podcast</li>
+              <li>Invite a friend</li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Socials</h4>
+            <ul>
+              <li>Discord</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Facebook</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="footer-bottom">
+        <p>©2022 MORENT. All rights reserved</p>
+
+        <div class="footer-policy">
+          <a href="pp">Privacy &amp; Policy</a>
+          <a href="tc">Terms &amp; Condition</a>
+        </div>
+      </div>
+    </footer> 
+  </main>
+</body>
+
+</html>
