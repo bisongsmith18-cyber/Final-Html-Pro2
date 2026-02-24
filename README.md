@@ -57,4 +57,4 @@ Open the project folder
 
 Open index.html in your browser
 
-That’s it 
+That’s it
